@@ -1,10 +1,5 @@
 var nguoiDungService = new NguoiDungService();
 
-function themNguoiDungTest(){
-    console.log("Thêm người dùng thành công!");
-}
-
-
 getListUser();
 function getListUser(){
     nguoiDungService.layDanhSachNguoiDung()
